@@ -20,7 +20,6 @@ function calculateResult() {
     }
 }
 
-// Add keyboard support
 document.addEventListener('keydown', function(event) {
     const key = event.key;
     if (key >= '0' && key <= '9') {
